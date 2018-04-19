@@ -1,9 +1,9 @@
+/*jshint node:true*/
 const fs = require('fs');
 const path = require('path');
 
 const isExist = path => fs.existsSync(path);
 
-/*jshint node:true*/
 module.exports = {
   description: 'Create component story for story book',
   fileMapTokens() {
