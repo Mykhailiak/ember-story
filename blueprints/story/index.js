@@ -5,7 +5,7 @@ const path = require('path');
 const isExist = path => fs.existsSync(path);
 
 module.exports = {
-  description: 'Create component story for story book',
+  description: 'Create component story for combook',
   fileMapTokens() {
     return {
       __componentName__(options) {
